@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xam.Login.View.SocialLoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Login with Facebook"
+                        ImageSource="ic_fb"
+                        Command="{Binding OnLoginWithFacebookCommand}"
+                        HeightRequest="45"
+                        TextColor="White"
+                        BackgroundColor="#4768AD"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,4 +1,5 @@
 ﻿using System;
+using xam.Login.View;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace xam.Login
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new SocialLoginPage()); ;
         }
 
         protected override void OnStart()
